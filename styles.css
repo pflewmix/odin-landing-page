@@ -30,11 +30,11 @@ a {
 }
 /* end navigator */
 
-.header, .container {
+.header, .gyro {
     background-color: #1F2937;
 }
 
-.container {
+.gyro {
     display: flex;  
     justify-content: space-evenly;
 }
@@ -57,6 +57,7 @@ a {
 #info2 {
     font-size: 18px;
     color: #E5E7EB;
+    align-self: center;
 }
 
 .right {
@@ -71,13 +72,14 @@ img {
 }
 
 button {
-    border: none;
+    border: 2px solid #F9FAF8;
     border-radius: 10px;
     background: #3882F6;
     color: white;
     font-size: 16px;
     padding: 10px 30px;
     margin-top: 10px;
+    margin-bottom: 10;
 }
 
 .title {
@@ -87,11 +89,11 @@ button {
     padding-top: 48px;
 }
 
-.title, .diagrams4 {
+.title, .fourdiagrams {
     background-color: white;
 }
 
-.diagrams4 {
+.fourdiagrams {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -138,3 +140,49 @@ button {
     margin-left: 420px;
 
 }
+
+.invite {
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    padding: 48px;
+}
+
+.container {
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.signinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 600px;
+}
+
+#call {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+
