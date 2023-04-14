@@ -141,6 +141,7 @@ button {
 
 }
 
+/* call to action start*/
 .invite {
     display: flex;
     justify-content:center;
@@ -173,6 +174,7 @@ button {
     font-size: 24px;
     color: #F9FAF8;
 }
+/*call to action end*/
 
 .footer {
     bottom: 0;
