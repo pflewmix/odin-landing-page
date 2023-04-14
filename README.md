@@ -1,7 +1,7 @@
 
 README
-
-Welcome to my landing page. I hope you choose Gohan.
+Welcome to my landing page. A bit nervous about submitting this, but I'm proud of myself for finishing.
+Thank you for checking it out! :)
 
 
 IMAGES USED
